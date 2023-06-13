@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "^18"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chrome-aws-lambda": "^10.1.0",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "puppeteer-core": "^10.4.0",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "heroku": "^8.1.4",
+    "puppeteer": "^20.3.0"
+  }
+}
